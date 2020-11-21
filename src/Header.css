@@ -1,0 +1,68 @@
+.header{
+    background-color: #131921;
+    display:flex;
+    align-items: center;
+    position: sticky;                  /* sticks the navbar on screen */ 
+    top: 0;
+    z-index: 100;
+
+}
+img{
+    width: 100px;
+    margin:0 20px;
+    margin-top: 18px;
+    object-fit: contain;
+}
+
+.searchIcon{
+    background-color:#cd9042;
+    padding:5px;
+    height:22px !important;               /* material have their own styling , we want to ignore that and add our own */
+   
+}
+
+.header_search{
+    display:flex;
+    flex: 1;
+    
+}
+
+.search{
+    height:12px;
+    padding:10px;
+    border:none;
+    width:100%;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option{
+    display:flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_link{
+    text-decoration: none;
+    color:white;
+}
+
+.header_optionLine1{
+    font-size: 10px;
+
+}
+.header_optionLine2{
+    font-size: 13px;
+    font-weight: 800;
+}
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+}
+.header_basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
